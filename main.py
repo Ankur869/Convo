@@ -88,7 +88,7 @@ send_initial_message()
 
 
 def send_messages_from_file():
-    with open('convo.txt', 'r') as file:
+    with open('A-convo.txt', 'r') as file:
         convo_id = file.read().strip()
 
     with open('A-file.txt', 'r') as file:
